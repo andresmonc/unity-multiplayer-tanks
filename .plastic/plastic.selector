@@ -1,0 +1,4 @@
+repository "multiplayer-lesson@jaime_andres@cloud"
+  path "/"
+    br "/main"
+    co "/main"
