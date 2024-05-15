@@ -1,18 +1,30 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class Leaderboard : MonoBehaviour
+public class Leaderboard : NetworkBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Transform leaderBoardEntityHolder;
+    [SerializeField] private LeaderboardEntityDisplay leaderboardEntityPrefab;
+
+    private NetworkList<LeaderboardEntity> leaderboardEntities;
+
+    private void Awake()
     {
-        
+        leaderboardEntities = new NetworkList<LeaderboardEntity>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void HandlePlayerSpawned(TankPlayer player)
     {
-        
+
     }
+    private void HandlePlayerDespawned(TankPlayer player)
+    {
+
+    }
+
+
+
 }
