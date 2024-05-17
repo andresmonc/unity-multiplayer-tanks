@@ -13,14 +13,14 @@ public class RespawnHandler : NetworkBehaviour
     public override void OnNetworkSpawn()
     {
         if (!IsServer) { return; }
-        TankPlayer[] players = FindObjectsOfType<TankPlayer>();
+        TankPlayer[] players = FindObjectsByType<TankPlayer>(FindObjectsSortMode.None);
         foreach (TankPlayer player in players)
         {
             HandlePlayerSpawned(player);
         }
 
         TankPlayer.OnPlayerSpawned += HandlePlayerSpawned;
-        TankPlayer.OnPlayerDespawned += HandlePlayerDeSpawned;
+        TankPlayer.OnPlayerDespawned += HandlePlayerDespawned;
     }
 
 
@@ -29,7 +29,7 @@ public class RespawnHandler : NetworkBehaviour
     {
         if (!IsServer) { return; }
         TankPlayer.OnPlayerSpawned -= HandlePlayerSpawned;
-        TankPlayer.OnPlayerDespawned -= HandlePlayerDeSpawned;
+        TankPlayer.OnPlayerDespawned -= HandlePlayerDespawned;
     }
 
 
@@ -38,7 +38,7 @@ public class RespawnHandler : NetworkBehaviour
         player.Health.DeathEvent += (ignored) => HandlePlayerDeath(player);
     }
 
-    private void HandlePlayerDeSpawned(TankPlayer player)
+    private void HandlePlayerDespawned(TankPlayer player)
     {
         player.Health.DeathEvent -= (ignored) => HandlePlayerDeath(player);
     }
