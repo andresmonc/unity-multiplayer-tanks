@@ -7,8 +7,12 @@ using UnityEngine;
 
 public class Leaderboard : NetworkBehaviour
 {
+    [Header("References")]
     [SerializeField] private Transform leaderBoardEntityHolder;
     [SerializeField] private LeaderboardEntityDisplay leaderboardEntityPrefab;
+    [Header("Settings")]
+    [SerializeField] private int entityDisplayCount = 8;
+
 
     private NetworkList<LeaderboardEntity> leaderboardEntities;
     private List<LeaderboardEntityDisplay> leaderboardEntityDisplays = new List<LeaderboardEntityDisplay>();
@@ -108,9 +112,22 @@ public class Leaderboard : NetworkBehaviour
                     displayToUpdate.UpdateCoins(changeEvent.Value.Coins);
                 }
                 break;
-
-
         };
+        leaderboardEntityDisplays.Sort((x,y) => y.Coins.CompareTo(x.Coins));
+        for(int i = 0; i < leaderboardEntityDisplays.Count; i++){
+            leaderboardEntityDisplays[i].transform.SetSiblingIndex(i);
+            leaderboardEntityDisplays[i].UpdateText();
+            bool shouldShow = i <= entityDisplayCount - 1;
+            entityDisplays[i].gameObject.SetActive(shouldShow);
+        }
+
+        LeaderboardEntityDisplay myDisplay = leaderboardEntityDisplays.FirstOrDefault(x => x.ClientId == NetworkManager.Singleton.LocalClientId);
+        if(myDisplay != null){
+            if(myDisplay.transform.GetSiblingIndex() <= entityDisplayCount){
+                leaderBoardEntityHolder.GetChild(entityDisplayCount - 1).gameObject.SetActive(false);
+                myDisplay.gameObject.SetActive(true);
+            }
+        }
     }
 
     private void HandleCoinsChanged(ulong clientId, int newCoins)
