@@ -8,6 +8,7 @@ using UnityEngine;
 public class LeaderboardEntityDisplay : MonoBehaviour
 {
     [SerializeField] private TMP_Text displayText;
+    // TODO: SET THIS
     [SerializeField] private Color myColor;
 
     public ulong ClientId { get; private set; }
