@@ -13,6 +13,8 @@ public class TankPlayer : NetworkBehaviour
     [Header("Settings")]
     [SerializeField] private int ownerPriority = 15;
     [field: SerializeField] public Health Health { get; private set; }
+    [field: SerializeField] public CoinCollector Wallet { get; private set; }
+
 
     private bool spawned = false;
 
