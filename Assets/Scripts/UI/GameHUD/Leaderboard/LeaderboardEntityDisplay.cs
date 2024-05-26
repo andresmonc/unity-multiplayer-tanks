@@ -18,7 +18,7 @@ public class LeaderboardEntityDisplay : MonoBehaviour
 
     public void Initialize(ulong clientId, FixedString32Bytes name, int coins)
     {
-        this.ClientId = clientId;
+        ClientId = clientId;
         playerName = name;
         if (clientId == NetworkManager.Singleton.LocalClientId)
         {
@@ -30,11 +30,11 @@ public class LeaderboardEntityDisplay : MonoBehaviour
     public void UpdateCoins(int coins)
     {
         Coins = coins;
-        UpdateText(1);
+        UpdateText();
     }
 
 
-    public void UpdateText(int order)
+    public void UpdateText()
     {
         displayText.text = $"{transform.GetSiblingIndex() + 1}. {playerName} ({Coins})";
     }

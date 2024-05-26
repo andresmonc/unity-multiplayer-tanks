@@ -11,11 +11,11 @@ public class Leaderboard : NetworkBehaviour
     [SerializeField] private Transform leaderBoardEntityHolder;
     [SerializeField] private LeaderboardEntityDisplay leaderboardEntityPrefab;
     [Header("Settings")]
-    [SerializeField] private int entityDisplayCount = 8;
+    [SerializeField] private int entitiesToDisplay = 8;
 
 
     private NetworkList<LeaderboardEntity> leaderboardEntities;
-    private List<LeaderboardEntityDisplay> leaderboardEntityDisplays = new List<LeaderboardEntityDisplay>();
+    private List<LeaderboardEntityDisplay> entityDisplays = new List<LeaderboardEntityDisplay>();
 
     private void Awake()
     {
@@ -89,45 +89,45 @@ public class Leaderboard : NetworkBehaviour
         switch (changeEvent.Type)
         {
             case NetworkListEvent<LeaderboardEntity>.EventType.Add:
-                if (!leaderboardEntityDisplays.Any(x => x.ClientId == changeClientId))
+                if (!entityDisplays.Any(x => x.ClientId == changeClientId))
                 {
                     LeaderboardEntityDisplay display = Instantiate(leaderboardEntityPrefab, leaderBoardEntityHolder);
                     display.Initialize(changeEvent.Value.ClientId, changeEvent.Value.PlayerName, changeEvent.Value.Coins);
-                    leaderboardEntityDisplays.Add(display);
+                    entityDisplays.Add(display);
                 }
                 break;
             case NetworkListEvent<LeaderboardEntity>.EventType.Remove:
-                LeaderboardEntityDisplay displayToRemove = leaderboardEntityDisplays.FirstOrDefault(x => x.ClientId == changeClientId);
+                LeaderboardEntityDisplay displayToRemove = entityDisplays.FirstOrDefault(x => x.ClientId == changeClientId);
                 if (displayToRemove != null)
                 {
                     displayToRemove.transform.SetParent(null);
                     Destroy(displayToRemove);
-                    leaderboardEntityDisplays.Remove(displayToRemove);
+                    entityDisplays.Remove(displayToRemove);
                 }
                 break;
             case NetworkListEvent<LeaderboardEntity>.EventType.Value:
-                LeaderboardEntityDisplay displayToUpdate = leaderboardEntityDisplays.FirstOrDefault(x => x.ClientId == changeClientId);
+                LeaderboardEntityDisplay displayToUpdate = entityDisplays.FirstOrDefault(x => x.ClientId == changeClientId);
                 if (displayToUpdate != null)
                 {
                     displayToUpdate.UpdateCoins(changeEvent.Value.Coins);
                 }
                 break;
         };
-        leaderboardEntityDisplays.Sort((x, y) => y.Coins.CompareTo(x.Coins));
-        for (int i = 0; i < leaderboardEntityDisplays.Count; i++)
+        entityDisplays.Sort((x, y) => y.Coins.CompareTo(x.Coins));
+        for (int i = 0; i < entityDisplays.Count; i++)
         {
-            leaderboardEntityDisplays[i].transform.SetSiblingIndex(i);
-            leaderboardEntityDisplays[i].UpdateText(i);
-            bool shouldShow = i <= entityDisplayCount - 1;
-            leaderboardEntityDisplays[i].gameObject.SetActive(shouldShow);
+            entityDisplays[i].transform.SetSiblingIndex(i);
+            entityDisplays[i].UpdateText();
+            bool shouldShow = i <= entitiesToDisplay - 1;
+            entityDisplays[i].gameObject.SetActive(shouldShow);
         }
 
-        LeaderboardEntityDisplay myDisplay = leaderboardEntityDisplays.FirstOrDefault(x => x.ClientId == NetworkManager.Singleton.LocalClientId);
+        LeaderboardEntityDisplay myDisplay = entityDisplays.FirstOrDefault(x => x.ClientId == NetworkManager.Singleton.LocalClientId);
         if (myDisplay != null)
         {
-            if (myDisplay.transform.GetSiblingIndex() <= entityDisplayCount)
+            if (myDisplay.transform.GetSiblingIndex() >= entitiesToDisplay)
             {
-                leaderBoardEntityHolder.GetChild(entityDisplayCount - 1).gameObject.SetActive(false);
+                leaderBoardEntityHolder.GetChild(entitiesToDisplay - 1).gameObject.SetActive(false);
                 myDisplay.gameObject.SetActive(true);
             }
         }
