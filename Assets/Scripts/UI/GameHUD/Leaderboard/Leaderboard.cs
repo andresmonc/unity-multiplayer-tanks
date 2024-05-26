@@ -60,6 +60,7 @@ public class Leaderboard : NetworkBehaviour
 
     private void HandlePlayerSpawned(TankPlayer player)
     {
+        Debug.Log("Someone has spawned");
         leaderboardEntities.Add(new LeaderboardEntity
         {
             ClientId = player.OwnerClientId,

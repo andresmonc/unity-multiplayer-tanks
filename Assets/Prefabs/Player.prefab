@@ -1095,6 +1095,7 @@ MonoBehaviour:
   cinemachineVirtualCamera: {fileID: 5403967476259891581}
   ownerPriority: 15
   <Health>k__BackingField: {fileID: 5256336094575711114}
+  <Wallet>k__BackingField: {fileID: 6568851910779204301}
   PlayerName:
     m_InternalValue:
       utf8LengthInBytes: 0
