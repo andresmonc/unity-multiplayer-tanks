@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.Collections;
+using Unity.Netcode;
 using UnityEngine;
 
 public class LeaderboardEntityDisplay : MonoBehaviour
@@ -21,7 +22,7 @@ public class LeaderboardEntityDisplay : MonoBehaviour
         playerName = name;
         if (clientId == NetworkManager.Singleton.LocalClientId)
         {
-            displayText.Color = myColor;
+            displayText.color = myColor;
         }
         UpdateCoins(coins);
     }
@@ -29,7 +30,7 @@ public class LeaderboardEntityDisplay : MonoBehaviour
     public void UpdateCoins(int coins)
     {
         Coins = coins;
-        UpdateText();
+        UpdateText(1);
     }
 
 

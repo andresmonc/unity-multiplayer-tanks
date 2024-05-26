@@ -117,9 +117,9 @@ public class Leaderboard : NetworkBehaviour
         for (int i = 0; i < leaderboardEntityDisplays.Count; i++)
         {
             leaderboardEntityDisplays[i].transform.SetSiblingIndex(i);
-            leaderboardEntityDisplays[i].UpdateText();
+            leaderboardEntityDisplays[i].UpdateText(i);
             bool shouldShow = i <= entityDisplayCount - 1;
-            entityDisplays[i].gameObject.SetActive(shouldShow);
+            leaderboardEntityDisplays[i].gameObject.SetActive(shouldShow);
         }
 
         LeaderboardEntityDisplay myDisplay = leaderboardEntityDisplays.FirstOrDefault(x => x.ClientId == NetworkManager.Singleton.LocalClientId);
