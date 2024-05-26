@@ -113,8 +113,9 @@ public class Leaderboard : NetworkBehaviour
                 }
                 break;
         };
-        leaderboardEntityDisplays.Sort((x,y) => y.Coins.CompareTo(x.Coins));
-        for(int i = 0; i < leaderboardEntityDisplays.Count; i++){
+        leaderboardEntityDisplays.Sort((x, y) => y.Coins.CompareTo(x.Coins));
+        for (int i = 0; i < leaderboardEntityDisplays.Count; i++)
+        {
             leaderboardEntityDisplays[i].transform.SetSiblingIndex(i);
             leaderboardEntityDisplays[i].UpdateText();
             bool shouldShow = i <= entityDisplayCount - 1;
@@ -122,8 +123,10 @@ public class Leaderboard : NetworkBehaviour
         }
 
         LeaderboardEntityDisplay myDisplay = leaderboardEntityDisplays.FirstOrDefault(x => x.ClientId == NetworkManager.Singleton.LocalClientId);
-        if(myDisplay != null){
-            if(myDisplay.transform.GetSiblingIndex() <= entityDisplayCount){
+        if (myDisplay != null)
+        {
+            if (myDisplay.transform.GetSiblingIndex() <= entityDisplayCount)
+            {
                 leaderBoardEntityHolder.GetChild(entityDisplayCount - 1).gameObject.SetActive(false);
                 myDisplay.gameObject.SetActive(true);
             }
@@ -134,13 +137,13 @@ public class Leaderboard : NetworkBehaviour
     {
         for (int i = 0; i < leaderboardEntities.Count; i++)
         {
-            if(leaderboardEntities[i].ClientId != clientId){ continue;}
+            if (leaderboardEntities[i].ClientId != clientId) { continue; }
             leaderboardEntities[i] = new LeaderboardEntity
             {
                 ClientId = leaderboardEntities[i].ClientId,
                 PlayerName = leaderboardEntities[i].PlayerName,
                 Coins = newCoins
-            };    
+            };
             return;
         }
     }

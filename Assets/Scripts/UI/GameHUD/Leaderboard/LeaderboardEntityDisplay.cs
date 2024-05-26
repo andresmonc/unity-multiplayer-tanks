@@ -19,13 +19,15 @@ public class LeaderboardEntityDisplay : MonoBehaviour
     {
         this.ClientId = clientId;
         playerName = name;
-        if(clientId == NetworkManager.Singleton.LocalClientId){
+        if (clientId == NetworkManager.Singleton.LocalClientId)
+        {
             displayText.Color = myColor;
         }
         UpdateCoins(coins);
     }
 
-    public void UpdateCoins(int coins){
+    public void UpdateCoins(int coins)
+    {
         Coins = coins;
         UpdateText();
     }
