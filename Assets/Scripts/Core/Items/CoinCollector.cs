@@ -41,7 +41,9 @@ public class CoinCollector : NetworkBehaviour
         if (bountyCoinCount < minCoinsForBounty) { return; }
         for (int i = 0; i < bountyCoinCount; i++)
         {
-            Instantiate(coinPrefab, GetSpawnPoint(), Quaternion.identity);
+            BountyCoin coinInstance = Instantiate(coinPrefab, GetSpawnPoint(), Quaternion.identity);
+            coinInstance.SetValue(bountyCoinValue);
+            coinInstance.NetworkObject.Spawn();
         }
     }
 
