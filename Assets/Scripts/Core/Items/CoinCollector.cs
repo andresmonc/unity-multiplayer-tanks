@@ -41,7 +41,7 @@ public class CoinCollector : NetworkBehaviour
         if (bountyCoinCount < minCoinsForBounty) { return; }
         for (int i = 0; i < bountyCoinCount; i++)
         {
-            Instantiate(coinPrefab);
+            Instantiate(coinPrefab, GetSpawnPoint(), Quaternion.identity);
         }
     }
 
