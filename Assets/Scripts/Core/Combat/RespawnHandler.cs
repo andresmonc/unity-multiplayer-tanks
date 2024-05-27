@@ -8,7 +8,7 @@ using UnityEngine;
 public class RespawnHandler : NetworkBehaviour
 {
 
-    [SerializeField] private NetworkObject playerPrefab;
+    [SerializeField] private TankPlayer playerPrefab;
 
     public override void OnNetworkSpawn()
     {
@@ -54,8 +54,8 @@ public class RespawnHandler : NetworkBehaviour
     private IEnumerator RespawnPlayer(ulong OwnerClientId)
     {
         yield return null;
-        NetworkObject playerInstance = Instantiate(playerPrefab, SpawnPoint.GetRandomSpawnPoint(), Quaternion.identity);
-        playerInstance.SpawnAsPlayerObject(OwnerClientId);
+        TankPlayer playerInstance = Instantiate(playerPrefab, SpawnPoint.GetRandomSpawnPoint(), Quaternion.identity);
+        playerInstance.NetworkObject.SpawnAsPlayerObject(OwnerClientId);
     }
 
 }
