@@ -10,7 +10,7 @@ public class RespawnHandler : NetworkBehaviour
     [Header("References")]
     [SerializeField] private TankPlayer playerPrefab;
     [Header("Settings")]
-    [SerializeField] private float keptCoinPercentage = .50f;
+    [SerializeField] private float keptCoinPercentage = 50f;
 
     public override void OnNetworkSpawn()
     {
