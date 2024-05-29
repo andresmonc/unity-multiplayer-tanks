@@ -20,9 +20,11 @@ public class HealingZone : NetworkBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("trigger enter");
         if (!IsServer) { return; }
         if (other.TryGetComponent<TankPlayer>(out TankPlayer tankPlayer))
         {
+            Debug.Log($"{tankPlayer.PlayerName}");
             playersInZone.Add(tankPlayer);
             Debug.Log(playersInZone.ToString());
         }
