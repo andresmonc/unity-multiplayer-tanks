@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Microsoft.Unity.VisualStudio.Editor;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealingZone : NetworkBehaviour
 {
