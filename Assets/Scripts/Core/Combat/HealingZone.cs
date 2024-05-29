@@ -22,7 +22,7 @@ public class HealingZone : NetworkBehaviour
     {
         Debug.Log("trigger enter");
         if (!IsServer) { return; }
-        if (other.TryGetComponent<TankPlayer>(out TankPlayer tankPlayer))
+        if (other.attachedRigidbody.TryGetComponent<TankPlayer>(out TankPlayer tankPlayer))
         {
             Debug.Log($"{tankPlayer.PlayerName}");
             playersInZone.Add(tankPlayer);
@@ -34,7 +34,7 @@ public class HealingZone : NetworkBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         if (!IsServer) { return; }
-        if (other.TryGetComponent<TankPlayer>(out TankPlayer tankPlayer))
+        if (other.attachedRigidbody.TryGetComponent<TankPlayer>(out TankPlayer tankPlayer))
         {
             playersInZone.Remove(tankPlayer);
             Debug.Log(playersInZone.ToString());
