@@ -16,7 +16,6 @@ public class HealingZone : NetworkBehaviour
     [SerializeField] private int coinsPerTick = 1;
     [SerializeField] private int healthPerTick = 1;
 
-    // List<TankPlayer> playersInZone = new List<TankPlayer>();
     HashSet<TankPlayer> playersInZone = new HashSet<TankPlayer>();
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -25,6 +24,7 @@ public class HealingZone : NetworkBehaviour
         if (other.TryGetComponent<TankPlayer>(out TankPlayer tankPlayer))
         {
             playersInZone.Add(tankPlayer);
+            Debug.Log(playersInZone.ToString());
         }
     }
 
@@ -35,6 +35,7 @@ public class HealingZone : NetworkBehaviour
         if (other.TryGetComponent<TankPlayer>(out TankPlayer tankPlayer))
         {
             playersInZone.Remove(tankPlayer);
+            Debug.Log(playersInZone.ToString());
         }
     }
 }
