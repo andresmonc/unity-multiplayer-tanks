@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class HealingZone : NetworkBehaviour
 {
+    [Header("References")]
     [SerializeField] private Image healPowerBar;
-    
+    [Header("Settings")]
+    [SerializeField] private int maxHealPower;
 }
