@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4598198570062996390
+--- !u!1001 &9066680387447258626
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,12 +10,28 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -817902768834222405, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
       propertyPath: GlobalObjectIdHash
-      value: 3422167373
+      value: 1709419374
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257746938589629189, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
+      propertyPath: m_FlipY
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1257746938589629189, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6f27f19f34997b945a4a681c94022af6, type: 3}
+      objectReference: {fileID: 21300000, guid: 7bfd0a0977e81b84a8f1d12195e5883a, type: 3}
+    - target: {fileID: 1257746938589629189, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6007476
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257746938589629189, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6007476
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257746938589629189, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9433962
+      objectReference: {fileID: 0}
     - target: {fileID: 7314557810435470942, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -58,70 +74,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7724462434661214846, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
       propertyPath: m_Name
-      value: RespawningCoin
+      value: BountyCoin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7724462434661214846, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
-      insertIndex: 2
-      addedObject: {fileID: -9040464554227765714}
-    - targetCorrespondingSourceObject: {fileID: 7724462434661214846, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6981201462790149695}
+      addedObject: {fileID: 4686856749154563190}
   m_SourcePrefab: {fileID: 100100000, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
---- !u!212 &3360950937021065379 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 1257746938589629189, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
-  m_PrefabInstance: {fileID: 4598198570062996390}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6116689375121426904 stripped
+--- !u!1 &1648770938665161852 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7724462434661214846, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
-  m_PrefabInstance: {fileID: 4598198570062996390}
+  m_PrefabInstance: {fileID: 9066680387447258626}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &-9040464554227765714
+--- !u!114 &4686856749154563190
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6116689375121426904}
+  m_GameObject: {fileID: 1648770938665161852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: 053a99db8cf6f435ab05326fa9463456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UseUnreliableDeltas: 0
-  SyncPositionX: 1
-  SyncPositionY: 1
-  SyncPositionZ: 0
-  SyncRotAngleX: 0
-  SyncRotAngleY: 0
-  SyncRotAngleZ: 0
-  SyncScaleX: 0
-  SyncScaleY: 0
-  SyncScaleZ: 0
-  PositionThreshold: 0.001
-  RotAngleThreshold: 0.01
-  ScaleThreshold: 0.01
-  UseQuaternionSynchronization: 0
-  UseQuaternionCompression: 0
-  UseHalfFloatPrecision: 0
-  InLocalSpace: 0
-  Interpolate: 0
-  SlerpPosition: 0
---- !u!114 &6981201462790149695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  spriteRenderer: {fileID: 7829292358418248967}
+--- !u!212 &7829292358418248967 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1257746938589629189, guid: 891754c5dcd3f574d860380f55acde4b, type: 3}
+  m_PrefabInstance: {fileID: 9066680387447258626}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6116689375121426904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf92b67b0dbe24b4f942e1ef787b6573, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 3360950937021065379}
