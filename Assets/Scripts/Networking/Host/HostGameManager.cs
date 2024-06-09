@@ -115,4 +115,9 @@ public class HostGameManager : IDisposable
         }
         NetworkServer?.Dispose();
     }
+
+    public void Shutdown()
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -131,6 +131,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (20)
@@ -250,6 +258,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: a2f46a96f0475cf4ebdacb02139f3f1d, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: a2f46a96f0475cf4ebdacb02139f3f1d, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: a2f46a96f0475cf4ebdacb02139f3f1d, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_3 (2)
@@ -307,6 +323,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (1)
@@ -433,6 +457,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (19)
@@ -609,6 +641,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (8)
@@ -817,6 +857,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 9b05909adb5d5d445920f41722373164, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 9b05909adb5d5d445920f41722373164, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 9b05909adb5d5d445920f41722373164, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_1 (3)
@@ -922,6 +970,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (31)
@@ -1015,6 +1071,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (11)
@@ -1138,6 +1202,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (3)
@@ -1257,6 +1329,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (7)
@@ -1336,6 +1416,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (32)
@@ -1509,6 +1597,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 9b05909adb5d5d445920f41722373164, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 9b05909adb5d5d445920f41722373164, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 9b05909adb5d5d445920f41722373164, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_1 (2)
@@ -1566,6 +1662,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (47)
@@ -1729,6 +1833,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (24)
@@ -1791,6 +1903,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (39)
@@ -1853,6 +1973,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (14)
@@ -1931,6 +2059,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_T (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4029768851833791189, guid: 17715548f7b229e4685689ecbe740f3f, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029768851833791189, guid: 17715548f7b229e4685689ecbe740f3f, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 9211365480877361857, guid: 17715548f7b229e4685689ecbe740f3f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50.023094
@@ -1984,6 +2120,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (44)
@@ -2165,6 +2309,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 9b05909adb5d5d445920f41722373164, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 9b05909adb5d5d445920f41722373164, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 9b05909adb5d5d445920f41722373164, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_1 (4)
@@ -2227,6 +2379,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (23)
@@ -2346,6 +2506,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (43)
@@ -2408,6 +2576,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (6)
@@ -2477,6 +2653,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (51)
@@ -2583,6 +2767,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (25)
@@ -2660,6 +2852,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (2)
@@ -2739,6 +2939,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (21)
@@ -2863,6 +3071,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (24)
@@ -2930,6 +3146,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (15)
@@ -3004,6 +3228,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (15)
@@ -3357,6 +3589,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (4)
@@ -3419,6 +3659,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (40)
@@ -3583,6 +3831,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (18)
@@ -3771,6 +4027,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (10)
@@ -3845,6 +4109,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (41)
@@ -3912,6 +4184,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (29)
@@ -3974,6 +4254,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (15)
@@ -4093,6 +4381,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (2)
@@ -4155,6 +4451,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (20)
@@ -4299,6 +4603,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 9b05909adb5d5d445920f41722373164, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 9b05909adb5d5d445920f41722373164, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 9b05909adb5d5d445920f41722373164, type: 3}
       propertyPath: m_Name
       value: Wall_Horizontal_Brick_1
@@ -4376,6 +4688,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (8)
@@ -4445,6 +4765,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (11)
@@ -4556,6 +4884,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (13)
@@ -4640,6 +4976,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (35)
@@ -4707,6 +5051,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (12)
@@ -4826,6 +5178,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (33)
@@ -4950,6 +5310,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (14)
@@ -5017,6 +5385,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (16)
@@ -5136,6 +5512,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (26)
@@ -5203,6 +5587,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (9)
@@ -5270,6 +5662,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (30)
@@ -5582,6 +5982,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (45)
@@ -5758,6 +6166,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (34)
@@ -5820,6 +6236,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (19)
@@ -5931,6 +6355,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (36)
@@ -6118,6 +6550,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (32)
@@ -6180,6 +6620,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1
@@ -6281,6 +6729,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (42)
@@ -6405,6 +6861,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (27)
@@ -6472,6 +6936,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (50)
@@ -6534,6 +7006,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (4)
@@ -6660,6 +7140,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (1)
@@ -6933,6 +7421,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (38)
@@ -6995,6 +7491,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (42)
@@ -7057,6 +7561,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (28)
@@ -7193,6 +7705,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_T
       objectReference: {fileID: 0}
+    - target: {fileID: 4029768851833791189, guid: 17715548f7b229e4685689ecbe740f3f, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029768851833791189, guid: 17715548f7b229e4685689ecbe740f3f, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 9211365480877361857, guid: 17715548f7b229e4685689ecbe740f3f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50.07094
@@ -7246,6 +7766,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (47)
@@ -7313,6 +7841,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (16)
@@ -7591,6 +8127,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (18)
@@ -7653,6 +8197,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (21)
@@ -7715,6 +8267,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (31)
@@ -7777,6 +8337,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (9)
@@ -7909,6 +8477,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (3)
@@ -7971,6 +8547,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (40)
@@ -8095,6 +8679,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: a2f46a96f0475cf4ebdacb02139f3f1d, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: a2f46a96f0475cf4ebdacb02139f3f1d, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: a2f46a96f0475cf4ebdacb02139f3f1d, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_3
@@ -8152,6 +8744,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (7)
@@ -8412,6 +9012,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (43)
@@ -8588,6 +9196,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (44)
@@ -8707,6 +9323,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (12)
@@ -8774,6 +9398,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 9b05909adb5d5d445920f41722373164, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 9b05909adb5d5d445920f41722373164, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 9b05909adb5d5d445920f41722373164, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_1
@@ -8831,6 +9463,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (17)
@@ -8893,6 +9533,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (11)
@@ -8955,6 +9603,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (46)
@@ -9022,6 +9678,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (27)
@@ -9084,6 +9748,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (5)
@@ -9399,6 +10071,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (23)
@@ -9461,6 +10141,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (10)
@@ -9814,6 +10502,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (29)
@@ -9876,6 +10572,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (3)
@@ -10025,6 +10729,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (46)
@@ -10087,6 +10799,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (12)
@@ -10161,6 +10881,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (2)
@@ -10223,6 +10951,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (16)
@@ -10401,6 +11137,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (49)
@@ -10463,6 +11207,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (22)
@@ -10525,6 +11277,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (30)
@@ -10657,6 +11417,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (6)
@@ -10719,6 +11487,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (1)
@@ -10781,6 +11557,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (36)
@@ -10843,6 +11627,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (28)
@@ -10905,6 +11697,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (45)
@@ -10972,6 +11772,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (10)
@@ -11078,6 +11886,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (14)
@@ -11220,6 +12036,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (8)
@@ -11326,6 +12150,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 9b05909adb5d5d445920f41722373164, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 9b05909adb5d5d445920f41722373164, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 9b05909adb5d5d445920f41722373164, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_1 (1)
@@ -11398,6 +12230,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (37)
@@ -11464,6 +12304,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_T
       objectReference: {fileID: 0}
+    - target: {fileID: 4029768851833791189, guid: 17715548f7b229e4685689ecbe740f3f, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029768851833791189, guid: 17715548f7b229e4685689ecbe740f3f, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 9211365480877361857, guid: 17715548f7b229e4685689ecbe740f3f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50.148064
@@ -11527,6 +12375,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (37)
@@ -11594,6 +12450,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (17)
@@ -11740,6 +12604,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (5)
@@ -11802,6 +12674,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (17)
@@ -11864,6 +12744,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: a2f46a96f0475cf4ebdacb02139f3f1d, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: a2f46a96f0475cf4ebdacb02139f3f1d, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: a2f46a96f0475cf4ebdacb02139f3f1d, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_3 (3)
@@ -11931,6 +12819,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (13)
@@ -11993,6 +12889,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (22)
@@ -12112,6 +13016,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (33)
@@ -12219,6 +13131,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (6)
@@ -12286,6 +13206,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (18)
@@ -12348,6 +13276,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (41)
@@ -12415,6 +13351,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (48)
@@ -12756,6 +13700,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (7)
@@ -12818,6 +13770,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (25)
@@ -12885,6 +13845,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: a2f46a96f0475cf4ebdacb02139f3f1d, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: a2f46a96f0475cf4ebdacb02139f3f1d, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: a2f46a96f0475cf4ebdacb02139f3f1d, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_3 (1)
@@ -12947,6 +13915,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (13)
@@ -13009,6 +13985,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (26)
@@ -13071,6 +14055,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (4)
@@ -13133,6 +14125,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010 (5)
@@ -13226,6 +14226,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948523245542562327, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5486186457645578180, guid: 4679017973e16d44fbfd868bd5292ba2, type: 3}
       propertyPath: m_Name
       value: Wall_Brick_5 (9)
@@ -13305,6 +14313,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_Vertical_Brick_1 (35)
@@ -13377,6 +14393,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 404064785788777242, guid: 7c248fe23715283499d7d1dcd6ebc004, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 404064785788777242, guid: 7c248fe23715283499d7d1dcd6ebc004, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 404064785788777242, guid: 7c248fe23715283499d7d1dcd6ebc004, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 404064785788777242, guid: 7c248fe23715283499d7d1dcd6ebc004, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 2780565918418222347, guid: 7c248fe23715283499d7d1dcd6ebc004, type: 3}
       propertyPath: m_Name
       value: Wall_1001
@@ -13439,6 +14471,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 784954401083385387, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5195266389866403706, guid: 9ae747fc0254e764aa038b5d21de0f59, type: 3}
       propertyPath: m_Name
       value: Wall_1010
@@ -13501,6 +14541,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 1638357343406175870, guid: 5a458c0c9dcb7c944bbad2c24bb1e527, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638357343406175870, guid: 5a458c0c9dcb7c944bbad2c24bb1e527, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638357343406175870, guid: 5a458c0c9dcb7c944bbad2c24bb1e527, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638357343406175870, guid: 5a458c0c9dcb7c944bbad2c24bb1e527, type: 3}
+      propertyPath: m_Offset.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 6457762483535355844, guid: 5a458c0c9dcb7c944bbad2c24bb1e527, type: 3}
       propertyPath: m_LocalPosition.x
       value: -49.00219
@@ -13620,6 +14676,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1371203447}
     m_Modifications:
+    - target: {fileID: 4955761471518691082, guid: 8320fde92717a014e9c976c98c815918, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955761471518691082, guid: 8320fde92717a014e9c976c98c815918, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955761471518691082, guid: 8320fde92717a014e9c976c98c815918, type: 3}
+      propertyPath: m_Offset.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955761471518691082, guid: 8320fde92717a014e9c976c98c815918, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7751529324107370354, guid: 8320fde92717a014e9c976c98c815918, type: 3}
       propertyPath: m_Name
       value: Wall_0110
@@ -13680,6 +14752,22 @@ PrefabInstance:
     - target: {fileID: 275374994453517174, guid: 098befbb2d22cf94abda030a2684fbed, type: 3}
       propertyPath: m_Name
       value: Wall_0011
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002088192705517012, guid: 098befbb2d22cf94abda030a2684fbed, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002088192705517012, guid: 098befbb2d22cf94abda030a2684fbed, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002088192705517012, guid: 098befbb2d22cf94abda030a2684fbed, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002088192705517012, guid: 098befbb2d22cf94abda030a2684fbed, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7269976752956045998, guid: 098befbb2d22cf94abda030a2684fbed, type: 3}
       propertyPath: m_LocalPosition.x
