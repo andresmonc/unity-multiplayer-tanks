@@ -10,6 +10,7 @@ public class NetworkServer : IDisposable
     Dictionary<string, UserData> authIdToUserData = new Dictionary<string, UserData>();
 
     private NetworkManager networkManager;
+    public Action<String> OnClientLeft;
 
     public NetworkServer(NetworkManager networkManager)
     {
@@ -43,6 +44,7 @@ public class NetworkServer : IDisposable
         {
             clientIdToAuth.Remove(clientID);
             authIdToUserData.Remove(authId);
+            OnClientLeft?.Invoke(authId);
         }
     }
 

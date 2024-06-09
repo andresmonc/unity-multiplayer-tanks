@@ -11,5 +11,6 @@ public class GameHUD : MonoBehaviour
         {
             HostSingleton.Instance.HostGameManager.Shutdown();
         }
+        ClientSingleton.Instance.ClientGameManager.Disconnect();
     }
 }

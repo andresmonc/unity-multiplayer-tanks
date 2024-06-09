@@ -13,6 +13,18 @@ public class NetworkClient : IDisposable
         networkManager.OnClientDisconnectCallback += OnClientDisconnect;
     }
 
+    public void Disconnect()
+    {
+        if (SceneManager.GetActiveScene().name != MenuSceneName)
+        {
+            SceneManager.LoadScene(MenuSceneName);
+        }
+        if (networkManager.IsConnectedClient)
+        {
+            networkManager.Shutdown();
+        }
+    }
+
     public void Dispose()
     {
         if (networkManager == null)
@@ -29,14 +41,6 @@ public class NetworkClient : IDisposable
         {
             return;
         }
-
-        if (SceneManager.GetActiveScene().name != MenuSceneName)
-        {
-            SceneManager.LoadScene(MenuSceneName);
-        }
-        if (networkManager.IsConnectedClient)
-        {
-            networkManager.Shutdown();
-        }
+        Disconnect();
     }
 }
