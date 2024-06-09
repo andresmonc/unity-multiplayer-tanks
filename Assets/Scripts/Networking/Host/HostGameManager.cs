@@ -95,7 +95,12 @@ public class HostGameManager : IDisposable
         }
     }
 
-    public async void Dispose()
+    public void Dispose()
+    {
+        Shutdown();
+    }
+
+    public async void Shutdown()
     {
         if (HostSingleton.Instance != null)
         {
@@ -113,11 +118,5 @@ public class HostGameManager : IDisposable
             }
             lobbyId = string.Empty;
         }
-        NetworkServer?.Dispose();
-    }
-
-    public void Shutdown()
-    {
-        throw new NotImplementedException();
-    }
+        NetworkServer?.Dispose();    }
 }
