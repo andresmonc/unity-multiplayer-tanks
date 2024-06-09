@@ -7144,7 +7144,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1115682913}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1566574867}
+        m_TargetAssemblyTypeName: GameHUD, Assembly-CSharp
+        m_MethodName: LeaveGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1115682913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10907,6 +10919,7 @@ GameObject:
   - component: {fileID: 1566574864}
   - component: {fileID: 1566574865}
   - component: {fileID: 1566574866}
+  - component: {fileID: 1566574867}
   m_Layer: 0
   m_Name: GameHUD
   m_TagString: Untagged
@@ -10966,6 +10979,18 @@ MonoBehaviour:
   leaderBoardEntityHolder: {fileID: 1175423666}
   leaderboardEntityPrefab: {fileID: -1908018600074333803, guid: 448cb61f7bac83f4e94e884dc83a3165, type: 3}
   entitiesToDisplay: 8
+--- !u!114 &1566574867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566574863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7789193e57d7a54eacdf3e5a2c2395d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1576274318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3354050034006289265, guid: d9677c1ec65989643a4e090aad941e31, type: 3}
