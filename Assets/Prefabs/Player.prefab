@@ -1178,9 +1178,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cinemachineVirtualCamera: {fileID: 5403967476259891581}
+  minimapRender: {fileID: 4846999518029642336}
   ownerPriority: 15
   <Health>k__BackingField: {fileID: 5256336094575711114}
   <Wallet>k__BackingField: {fileID: 6568851910779204301}
+  playerMinimapColor: {r: 1, g: 1, b: 1, a: 1}
   PlayerName:
     m_InternalValue:
       utf8LengthInBytes: 0
