@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 2561457967499004751}
   - component: {fileID: 68387865087485844}
   m_Layer: 8
-  m_Name: Triangle
+  m_Name: MinimapRender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
